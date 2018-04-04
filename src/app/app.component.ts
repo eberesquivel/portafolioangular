@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { InformacionService } from "./services/informacion.service";
+
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Eber Raziel';
+  constructor(public _is:InformacionService){
+
+  }
 }
