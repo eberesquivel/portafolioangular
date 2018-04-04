@@ -9,8 +9,8 @@ import{
 const app_routes: Routes = [
   { path: 'inicio', component: PortafolioComponent },
   { path: 'acerca', component: AboutComponent },
-  { path: 'productos', component: ProductosComponent },
-  { path: '**', pathMatch: 'full', redirectTo: '' }
+  { path: 'productos/:id', component: ProductosComponent },
+  { path: '**', pathMatch: 'full', redirectTo: 'inicio' }
 ];
 
 export const app_routing = RouterModule.forRoot(app_routes, {useHash:true});
