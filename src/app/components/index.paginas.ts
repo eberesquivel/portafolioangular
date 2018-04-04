@@ -1,3 +1,4 @@
-export { PortafolioComponent } from "./components/portafolio/portafolio.component.ts";
-export { AboutComponent } from "./components/about/about.component.ts";
-export { ProductosComponent } from "./components/productos/productos.component";
+
+export { AboutComponent } from "./about/about.component";
+export { PortafolioComponent } from "./portafolio/portafolio.component";
+export { ProductosComponent } from "./productos/productos.component";

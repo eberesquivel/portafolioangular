@@ -9,6 +9,8 @@ import { PortafolioComponent } from './components/portafolio/portafolio.componen
 import { AboutComponent } from './components/about/about.component';
 import { ProductosComponent } from './components/productos/productos.component';
 
+// Rutas
+import {app_routing} from './app.routes';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { ProductosComponent } from './components/productos/productos.component';
     ProductosComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    app_routing
   ],
   providers: [],
   bootstrap: [AppComponent]
