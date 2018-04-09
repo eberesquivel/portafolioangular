@@ -7,7 +7,7 @@ export class InformacionService {
 info:any ={};
 cargada:boolean = false;
 cargada_sobre_nosotros:boolean=false;
-equipo:any[]=[]
+equipo:any[]=[];
   constructor( public http:Http) {
       this.carga_info();
       this.carga_sobre_nosotros();

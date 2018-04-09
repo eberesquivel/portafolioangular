@@ -1,29 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Hi+Melody');
+
 @font-face{
-    font-family:Aileron;
+
     font-style:normal;
     font-weight:400;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Tangerine', cursive;
 }
 @font-face{
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Tangerine', cursive;
     font-style:normal;
     font-weight:500;
 }
 @font-face{
-    font-family:Aileron;
+    font-family:'Tangerine',cursive;
     font-style:normal;
     font-weight:700;
-    src:url(fonts/aurora-theme-base-fonts/aileron-bold.woff2) format("woff2"),url(fonts/aurora-theme-base-fonts/aileron-bold.woff) format("woff")
+
 }
 @font-face{
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Tangerine', cursive;
     font-style:normal;
     font-weight:900;
-    src:url(fonts/aurora-theme-base-fonts/aileron-black.woff2) format("woff2"),url(fonts/aurora-theme-base-fonts/aileron-black.woff) format("woff")
 }
 body{
     line-height:1.556;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Tangerine', cursive;
 }
 a,button{
     color:inherit;
@@ -69,5 +70,7 @@ pre{
 }
 p.ae-eta{
     line-height:1.3749;
-    margin-bottom:2rem
+    margin-bottom:2rem;
+    font-family: 'Hi Melody';
+    font-size: 1.9em;
 }

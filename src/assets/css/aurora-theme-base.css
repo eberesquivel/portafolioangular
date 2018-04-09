@@ -9,33 +9,33 @@
   font-family: 'Quicksand', sans-serif;
   font-style: normal;
   font-weight: 400;
-  src: url('https://fonts.googleapis.com/css?family=Quicksand');
+  src: url('https://fonts.googleapis.com/css?family=Tangerine');
 }
 
 @font-face {
   font-family: 'Quicksand', sans-serif;
   font-style: normal;
   font-weight: 500;
-  src: url('https://fonts.googleapis.com/css?family=Quicksand');
+  src: url('https://fonts.googleapis.com/css?family=Tangerine');
 }
 
 @font-face {
   font-family: 'Quicksand', sans-serif;
   font-style: normal;
   font-weight: 700;
-  src: url('https://fonts.googleapis.com/css?family=Quicksand');
+  src: url('https://fonts.googleapis.com/css?family=Tangerine');
 }
 
 @font-face {
   font-family: 'Quicksand', sans-serif;
   font-style: normal;
   font-weight: 900;
-  src: url('https://fonts.googleapis.com/css?family=Quicksand');
+  src: url('https://fonts.googleapis.com/css?family=Tangerine');
 }
 
 body {
   line-height: 1.556;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Tangerine', sans-serif;
 }
 
 a,
@@ -122,4 +122,5 @@ pre {
 p.ae-eta {
   line-height: 1.3749;
   margin-bottom: 2rem;
+  font-family: 'Tangerine',sans-serif;
 }

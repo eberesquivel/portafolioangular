@@ -11,6 +11,7 @@ import {ProductosService} from  "../../services/productos.service";
 export class ProductosComponent {
   producto:any = undefined;
   cod:string =undefined;
+  video:any =undefined;
   constructor (private route:ActivatedRoute,
                private _ps: ProductosService) {
 
@@ -22,8 +23,9 @@ export class ProductosComponent {
 
         .subscribe( res=> {
             this.cod = parametros['id'];
+
             this.producto = res.json();
-            console.log( this.producto);
+            // console.log( this.producto);
         });
   })
 
