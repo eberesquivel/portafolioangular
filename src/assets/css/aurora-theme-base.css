@@ -1,41 +1,41 @@
-/* * * * * * * * * * * * * * * * * * * * *\ 
- aurora-themes v1.0.0 
- Themes for Aurora Kit 
- (c) 2015 Lionel T <elrumordelaluz@hotmail.com> (http://elrumordelaluz.com) 
- https://github.com/aurora-kit/aurora-themes.git 
- Licensed under  MIT 
+/* * * * * * * * * * * * * * * * * * * * *\
+ aurora-themes v1.0.0
+ Themes for Aurora Kit
+ (c) 2015 Lionel T <elrumordelaluz@hotmail.com> (http://elrumordelaluz.com)
+ https://github.com/aurora-kit/aurora-themes.git
+ Licensed under  MIT
 \* * * * * * * * * * * * * * * * * * * * */
 @font-face {
-  font-family: "Aileron";
+  font-family: 'Quicksand', sans-serif;
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/aurora-theme-base-fonts/aileron-regular.woff2") format("woff2"), url("fonts/aurora-theme-base-fonts/aileron-regular.woff") format("woff");
+  src: url('https://fonts.googleapis.com/css?family=Quicksand');
 }
 
 @font-face {
-  font-family: "Aileron";
+  font-family: 'Quicksand', sans-serif;
   font-style: normal;
   font-weight: 500;
-  src: url("fonts/aurora-theme-base-fonts/aileron-semibold.woff2") format("woff2"), url("fonts/aurora-theme-base-fonts/aileron-semibold.woff") format("woff");
+  src: url('https://fonts.googleapis.com/css?family=Quicksand');
 }
 
 @font-face {
-  font-family: "Aileron";
+  font-family: 'Quicksand', sans-serif;
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/aurora-theme-base-fonts/aileron-bold.woff2") format("woff2"), url("fonts/aurora-theme-base-fonts/aileron-bold.woff") format("woff");
+  src: url('https://fonts.googleapis.com/css?family=Quicksand');
 }
 
 @font-face {
-  font-family: "Aileron";
+  font-family: 'Quicksand', sans-serif;
   font-style: normal;
   font-weight: 900;
-  src: url("fonts/aurora-theme-base-fonts/aileron-black.woff2") format("woff2"), url("fonts/aurora-theme-base-fonts/aileron-black.woff") format("woff");
+  src: url('https://fonts.googleapis.com/css?family=Quicksand');
 }
 
 body {
   line-height: 1.556;
-  font-family: "Aileron", Helvetica, Arial, sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 a,
